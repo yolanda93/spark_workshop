@@ -112,15 +112,15 @@ Uncompress file and position the text files in a folder called ​AOL­user­ct�
 
 Open​_2.­ Aol.ipynb 
 
-![Alt text] (https://github.com/yolanda93/spark_workshop/blob/master/documents/images/1.png "Usage example")
+![Alt text] (https://github.com/yolanda93/spark_workshop/blob/master/Documentation/images/1.png "Usage example")
 
 1.­ Test the example code. Be sure you have adjusted the path where the data files are before executing, if you do not, you would get an error. 
 
-![Alt text] (https://github.com/yolanda93/spark_workshop/blob/master/documents/images/3.png "Usage example")
+![Alt text] (https://github.com/yolanda93/spark_workshop/blob/master/Documentation/images/3.png "Usage example")
 
 2.­ See how spark partitions the different processes in the console log of the shell where you executed the command
 
-![Alt text] (https://github.com/yolanda93/spark_workshop/blob/master/documents/images/4.png "Usage example")
+![Alt text] (https://github.com/yolanda93/spark_workshop/blob/master/Documentation/images/4.png "Usage example")
 
 Change the example code, so,  the last table, instead counting group members by Date, counts group members by Anonymous user id. 
  
