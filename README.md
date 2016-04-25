@@ -16,15 +16,19 @@ Download the latest release of Spark—Spark 1.5.2, released on November 9, 2015
 
 This can also be accomplished by running:
 
+```
 # download spark
 $ wget http://d3kbcqa49mib13.cloudfront.net/spark-1.5.2-bin-hadoop2.6.tgz
+```
 
 Next, we'll extract the files and clean up:
 
+```
 # extract, clean up, move the unzipped files under the spark directory
 $ tar -xf spark-1.5.2-bin-hadoop2.6.tgz
 $ rm spark-1.5.2-bin-hadoop2.6.tgz
 $ sudo mv spark-* spark
+```
 
 Now, we can run the Spark Python interpreter with:
 
@@ -34,6 +38,7 @@ $ cd ~/spark
 
 You should see something like this:
 
+```
 Welcome to
 ____
 / __/__
@@ -51,6 +56,7 @@ The interpreter will have already provided us with a Spark context object, sc ,
 which we can see by running:
 >>> print(sc)
 <pyspark.context.SparkContext object at 0x7f34b61c4e50>
+```
 
 
 ## Enabling IPython Notebook
@@ -59,7 +65,9 @@ the console.
 
 You can launch IPython Notebook by using the following command:
 
+```
 $ IPYTHON_OPTS="notebook --pylab inline" ./bin/pyspark
+```
 
 Launch PySpark with IPYNB in the directory examples/AN_Spark where Jupyter or IPython Notebooks are stored:
 
